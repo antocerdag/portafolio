@@ -67,6 +67,13 @@ $(document).ready(function() {
 		$(".devicon-illustrator-plain").animateCss('zoomIn');
 	});
 
+	$(".fa-envelope-o").hover(function(){
+		$(".fa-envelope-o").animateCss('bounce');
+	});
+	$(".fa-whatsapp").hover(function(){
+		$(".fa-whatsapp").animateCss('bounce');
+	});
+
 	//FUNCION TAGS
 	$("#all").click(function(){
     	$(".pro-web").show(500);
