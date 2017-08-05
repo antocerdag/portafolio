@@ -1,0 +1,184 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0; }
+
+/* SIDENAV */
+.menu {
+  cursor: pointer;
+  color: white;
+  position: fixed;
+  right: 9%;
+  top: 10%;
+  font-size: 19px;
+  z-index: 1; }
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: rgba(17, 17, 17, 0.7);
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */ }
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s; }
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus {
+  color: #f1f1f1; }
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+
+  .sidenav a {
+    font-size: 18px; } }
+/* MENU LATERAL */
+.menu-lateral {
+  background-color: white;
+  width: 3%;
+  height: 115px;
+  position: fixed;
+  right: 0%;
+  top: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  z-index: 1; }
+  .menu-lateral ul li {
+    list-style: none;
+    padding: 4px; }
+    .menu-lateral ul li a .fa {
+      color: #2DB6A3;
+      font-size: 18px; }
+
+/*SECTION INICIO*/
+.inicio {
+  background-image: url("../assets/img/foto-inicio.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -21px;
+  width: 100%; }
+  .inicio .fondo-color {
+    background-color: rgba(45, 182, 163, 0.63); }
+  .inicio .foto-a {
+    width: 29%;
+    margin-top: 12%; }
+  .inicio .txt-hola {
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 8%;
+    margin-bottom: 2%; }
+  .inicio .bajada-hola {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 5%; }
+  .inicio .iconos-redes {
+    width: 100%; }
+    .inicio .iconos-redes .fa {
+      font-size: 39px;
+      color: white;
+      padding: 17px;
+      margin-top: 5%;
+      margin-bottom: 10%; }
+
+/* SKILLS */
+.skills {
+  background-color: #FCCF4D;
+  width: 100%; }
+  .skills .icono-logo {
+    color: white;
+    font-size: 88px; }
+
+.margen-top {
+  margin-top: 41px; }
+
+.margen-bot {
+  margin-bottom: 10%; }
+
+.titulo-seccion {
+  font-size: 48px;
+  margin-top: 6%; }
+
+/* ABOUT ME */
+.aboutme {
+  background-color: #2DB6A3;
+  width: 100%; }
+  .aboutme .foto-a2 {
+    width: 16%;
+    margin-top: 0%; }
+
+/* WORK */
+.work {
+  width: 100%;
+  background-color: #FCCF4D; }
+  .work .foto-work {
+    width: 100%;
+    margin-bottom: 31px; }
+  .work .tagslista {
+    display: inline-flex; }
+    .work .tagslista li {
+      margin: 2px 25px;
+      list-style: none;
+      margin-bottom: 24px; }
+  .work .tags {
+    color: #FEF3CC;
+    background-color: black;
+    border: 6px solid black;
+    border-radius: 23px; }
+
+/* CONTACT */
+.contact {
+  width: 100%;
+  background-image: url("../assets/img/foto-codigo.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -234px; }
+  .contact .color-fondo {
+    background-color: rgba(45, 182, 163, 0.63); }
+  .contact .email {
+    margin-bottom: 3%;
+    margin-top: 5%;
+    font-size: 18px;
+    color: white; }
+  .contact .wsp {
+    margin-bottom: 7%;
+    font-size: 18px;
+    color: white; }
+  .contact .fa {
+    font-size: 25px;
+    margin-right: 1%; }
+
+/*# sourceMappingURL=main.css.map */

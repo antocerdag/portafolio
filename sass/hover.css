@@ -1,0 +1,46 @@
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 14px;
+    right: 0;
+    height: 87%;
+    width: 91%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+.caja-imgproyecto:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.botones{
+    position: relative;
+    top: 84px;
+    padding: 7px;
+    margin-left: 13px;
+    border-radius: 14px;
+    border-color: transparent;
+    background-color: #fccf4d;
+    font-weight: 700;
+    color: black;
+}
