@@ -43,4 +43,9 @@
     background-color: #fccf4d;
     font-weight: 700;
     color: black;
+    list-style: none;
+}
+
+.botones:hover{
+  list-style: none;
 }

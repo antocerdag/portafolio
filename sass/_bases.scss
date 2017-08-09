@@ -90,20 +90,19 @@
 	background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-	background-position-y: -21px;
+	background-position-y: -176px;
     width: 100%;
 	.fondo-color{
 		background-color:rgba(45, 182, 163, 0.63);
 	}
 	.foto-a{
-		width: 29%;
-		margin-top: 12%;
+ 	width: 25%;
+    margin-top: 6%;
 	}
 	.pre-txt{
 		color:white;
 		font-weight: 100;
     	font-size: 20px;
-    	margin-top:10%;
 	}
 	.txt-hola{
 		color:white;
@@ -125,16 +124,6 @@
     	font-size: 27px;
     	margin-bottom: 5%;
 	}
-	.iconos-redes{
-		width:100%;
-		.fa{
-			font-size: 39px;
-	    	color: white;
-	    	padding: 17px;
-    		margin-top: 5%;
-    		margin-bottom: 10%;
-		}
-	}
 }
 /* SKILLS */
 .skills{
@@ -142,10 +131,9 @@
 	width:100%;
 	.icono-logo{
 		color: white;
-    	font-size: 88px;
+    	font-size: 74px;
 	}
 }
-
 	.margen-top{
 		margin-top: 41px;
 	}
@@ -196,9 +184,6 @@
     	margin-bottom: 24px;
 		}
 	}
-	.btn.tags{
-
-	}
 	.tags{
 		color:$crema;
 		background-color: black;
@@ -224,6 +209,14 @@
     	margin-top: 5%;
     	font-size: 18px;
     	color:white;
+	}
+	.iconos-redes{
+		width:100%;
+		.fa{
+		    font-size: 39px;
+		    color: white;
+		    padding: 17px;
+		}
 	}
 	.wsp{
 		margin-bottom:7%;
