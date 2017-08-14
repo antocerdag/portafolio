@@ -46,6 +46,8 @@
     list-style: none;
 }
 
-.botones:hover{
-  list-style: none;
+a:focus, a:hover{
+  color:black;
+  text-decoration: none;
+  list-style: none !important;
 }

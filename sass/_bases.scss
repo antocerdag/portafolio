@@ -90,7 +90,8 @@
 	background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-	background-position-y: -176px;
+    background-position: center;
+	background-position-y: 10%;
     width: 100%;
 	.fondo-color{
 		background-color:rgba(45, 182, 163, 0.63);
@@ -111,12 +112,12 @@
     	margin-bottom: 2%;
 	}
 	.linea{
-	    height: 2px;
-	    width: 361px;
+		height: 2px;
+    	width: 44%;
 	    background-color: white;
 	    margin-left: auto;
 	    margin-right: auto;
-	    margin-top: -20px;
+	    margin-top: -1%;
 	}
 	.bajada-hola{
 		color:white;
@@ -127,7 +128,7 @@
 }
 /* SKILLS */
 .skills{
-	background-color:$amarillo;
+	background-color:$verde_oscuro;
 	width:100%;
 	.icono-logo{
 		color: white;
@@ -151,7 +152,7 @@
 /* ABOUT ME */
 
 .aboutme{
-	background-color:$verde_oscuro;
+	background-color:$amarillo;
 	width:100%;
 	.foto-a2{
 	    width: 16%;
@@ -200,7 +201,6 @@
 	background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -234px;
 	.color-fondo{
 		background-color:rgba(45, 182, 163, 0.63);
 	}

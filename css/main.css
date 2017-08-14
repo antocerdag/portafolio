@@ -86,7 +86,8 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -176px;
+  background-position: center;
+  background-position-y: 10%;
   width: 100%; }
   .inicio .fondo-color {
     background-color: rgba(45, 182, 163, 0.63); }
@@ -104,11 +105,11 @@
     margin-bottom: 2%; }
   .inicio .linea {
     height: 2px;
-    width: 361px;
+    width: 44%;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -20px; }
+    margin-top: -1%; }
   .inicio .bajada-hola {
     color: white;
     font-weight: 100;
@@ -117,7 +118,7 @@
 
 /* SKILLS */
 .skills {
-  background-color: #FCCF4D;
+  background-color: #2DB6A3;
   width: 100%; }
   .skills .icono-logo {
     color: white;
@@ -135,7 +136,7 @@
 
 /* ABOUT ME */
 .aboutme {
-  background-color: #2DB6A3;
+  background-color: #FCCF4D;
   width: 100%; }
   .aboutme .foto-a2 {
     width: 16%;
@@ -174,8 +175,7 @@
   background-image: url("../assets/img/foto-codigo.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: -234px; }
+  background-size: cover; }
   .contact .color-fondo {
     background-color: rgba(45, 182, 163, 0.63); }
   .contact .email {
