@@ -18,7 +18,7 @@ function cambionav(){
 };
 window.addEventListener('scroll' , cambionav);
 
-function navLateral(){
+/*function navLateral(){
 	var distscroll= window.pageYOffset || document.documentElement.scrollTop;
 	if (distscroll > 450 ){ // al hacer scroll se debe eliminar la clase hide del nav que esta oculto
 		document.getElementById("menu-lateral").classList.remove('hide');
@@ -28,4 +28,4 @@ function navLateral(){
 	}
 }
 
-window.addEventListener('scroll' , navLateral);
+window.addEventListener('scroll' , navLateral);*/
