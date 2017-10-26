@@ -1,7 +1,8 @@
 * {
   font-family: 'Roboto', sans-serif;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  border: 0; }
 
 /* SIDENAV */
 .menu {
@@ -154,9 +155,8 @@
 .work {
   width: 100%;
   background-color: #FCCF4D; }
-  .work .foto-work {
-    width: 100%;
-    margin-bottom: 31px; }
+  .work .caja-imgproyecto {
+    margin-bottom: 2%; }
   .work .tagslista {
     display: inline-flex; }
     .work .tagslista li {

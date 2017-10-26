@@ -2,6 +2,7 @@
 	font-family: 'Roboto', sans-serif;
 	padding:0;
 	margin:0;
+	border:0;
 }
 /* SIDENAV */
 .menu{
@@ -173,9 +174,11 @@
 .work{
 	width:100%;
 	background-color:$amarillo;
+	.caja-imgproyecto{
+		margin-bottom:2%;
+	}
 	.foto-work{
-		width:100%;
-		margin-bottom: 31px;
+		//margin-bottom: 10%;
 	}
 	.tagslista{
 		display: inline-flex;

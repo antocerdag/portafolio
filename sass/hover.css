@@ -1,4 +1,7 @@
-
+.caja-imgproyecto{
+  position: relative;
+  width: 25%;
+}
 
 .image {
   display: block;
@@ -7,16 +10,16 @@
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 14px;
-    right: 0;
-    height: 87%;
-    width: 91%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgba(0, 0, 0, 0.61);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 14px;
+  right: 0;
+  height: 100%;
+  width: 91%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.61);
 }
 
 .caja-imgproyecto:hover .overlay {
@@ -34,16 +37,16 @@
 }
 
 .botones{
-    position: relative;
-    top: 84px;
-    padding: 7px;
-    margin-left: 13px;
-    border-radius: 14px;
-    border-color: transparent;
-    background-color: #fccf4d;
-    font-weight: 700;
-    color: black;
-    list-style: none;
+  position: relative;
+  top: 84px;
+  padding: 7px;
+  margin-left: 13px;
+  border-radius: 14px;
+  border-color: transparent;
+  background-color: #fccf4d;
+  font-weight: 700;
+  color: black;
+  list-style: none;
 }
 
 a:focus, a:hover{
